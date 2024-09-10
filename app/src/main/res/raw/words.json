@@ -1,0 +1,304 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "word": "Apple",
+      "pronunciation": "/ˈæp.əl/",
+      "description": "A fruit that is typically round and red, green, or yellow."
+    },
+    {
+      "id": 2,
+      "word": "Banana",
+      "pronunciation": "/bəˈnæn.ə/",
+      "description": "A long, curved fruit with a yellow skin and soft, sweet, white flesh inside."
+    },
+    {
+      "id": 3,
+      "word": "Cat",
+      "pronunciation": "/kæt/",
+      "description": "A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws."
+    },
+    {
+      "id": 4,
+      "word": "Dog",
+      "pronunciation": "/dɔɡ/",
+      "description": "A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and barking, howling, or whining."
+    },
+    {
+      "id": 5,
+      "word": "Elephant",
+      "pronunciation": "/ˈɛlɪfənt/",
+      "description": "A large herbivorous mammal with a trunk and tusks, native to Africa and Asia."
+    },
+    {
+      "id": 6,
+      "word": "Flower",
+      "pronunciation": "/ˈflaʊ.ər/",
+      "description": "The part of a plant that is often brightly colored and produces seeds or fruit."
+    },
+    {
+      "id": 7,
+      "word": "Guitar",
+      "pronunciation": "/ɡɪˈtɑːr/",
+      "description": "A stringed musical instrument with a long neck and usually six strings."
+    },
+    {
+      "id": 8,
+      "word": "House",
+      "pronunciation": "/haʊs/",
+      "description": "A building for human habitation, especially one that is lived in by a family or small group of people."
+    },
+    {
+      "id": 9,
+      "word": "Ice Cream",
+      "pronunciation": "/aɪs kriːm/",
+      "description": "A sweet frozen food made from milk or cream and typically flavored with vanilla, chocolate, or fruit."
+    },
+    {
+      "id": 10,
+      "word": "Jacket",
+      "pronunciation": "/ˈdʒæk.ɪt/",
+      "description": "A piece of clothing worn on the upper body outside, usually with sleeves and fastened with buttons or a zipper."
+    },
+    {
+      "id": 11,
+      "word": "Kite",
+      "pronunciation": "/kaɪt/",
+      "description": "A light framework covered with paper, cloth, or plastic, designed to be flown in the air at the end of a long string."
+    },
+    {
+      "id": 12,
+      "word": "Lion",
+      "pronunciation": "/ˈlaɪ.ən/",
+      "description": "A large wild cat with a tawny coat, a tufted tail, and a mane in males, native to Africa and northwestern India."
+    },
+    {
+      "id": 13,
+      "word": "Monkey",
+      "pronunciation": "/ˈmʌŋ.ki/",
+      "description": "A small to medium-sized primate with a long tail and a prehensile tail or hands, known for its agility and playful nature."
+    },
+    {
+      "id": 14,
+      "word": "Notebook",
+      "pronunciation": "/ˈnoʊt.bʊk/",
+      "description": "A book of blank pages for writing or drawing in."
+    },
+    {
+      "id": 15,
+      "word": "Orange",
+      "pronunciation": "/ˈɔːr.ɪndʒ/",
+      "description": "A citrus fruit with a tough bright reddish-yellow rind and sweet juicy pulp."
+    },
+    {
+      "id": 16,
+      "word": "Pencil",
+      "pronunciation": "/ˈpen.səl/",
+      "description": "An instrument for writing or drawing, consisting of a thin stick of graphite or a similar substance enclosed in a wooden or plastic casing."
+    },
+    {
+      "id": 17,
+      "word": "Queen",
+      "pronunciation": "/kwiːn/",
+      "description": "The female ruler of an independent state, especially one who inherits the position by right of birth."
+    },
+    {
+      "id": 18,
+      "word": "Rainbow",
+      "pronunciation": "/ˈreɪn.boʊ/",
+      "description": "A multicolored arc made by light striking water droplets, often seen in the sky after rain."
+    },
+    {
+      "id": 19,
+      "word": "Sun",
+      "pronunciation": "/sʌn/",
+      "description": "The star around which the earth orbits, providing light and warmth."
+    },
+    {
+      "id": 20,
+      "word": "Tiger",
+      "pronunciation": "/ˈtaɪ.ɡər/",
+      "description": "A large wild cat with a striped coat, native to Asia."
+    },
+    {
+      "id": 21,
+      "word": "Umbrella",
+      "pronunciation": "/ʌmˈbrɛl.ə/",
+      "description": "A device used for protection against rain or sun, consisting of a collapsible canopy mounted on a central rod."
+    },
+    {
+      "id": 22,
+      "word": "Violin",
+      "pronunciation": "/ˌvaɪəˈlɪn/",
+      "description": "A wooden string instrument played with a bow, typically having four strings."
+    },
+    {
+      "id": 23,
+      "word": "Watermelon",
+      "pronunciation": "/ˈwɔː.tərˌmel.ən/",
+      "description": "A large, green fruit with a sweet, juicy, red or pink flesh and black seeds."
+    },
+    {
+      "id": 24,
+      "word": "Xylophone",
+      "pronunciation": "/ˈzaɪ.ləˌfoʊn/",
+      "description": "A musical instrument with a series of wooden bars struck by mallets."
+    },
+    {
+      "id": 25,
+      "word": "Yacht",
+      "pronunciation": "/jɒt/",
+      "description": "A medium-sized sailing boat equipped for cruising or racing."
+    },
+    {
+      "id": 26,
+      "word": "Zebra",
+      "pronunciation": "/ˈziː.brə/",
+      "description": "An African wild horse with black and white stripes."
+    },
+    {
+      "id": 27,
+      "word": "Airplane",
+      "pronunciation": "/ˈɛər.pleɪn/",
+      "description": "A powered flying vehicle with fixed wings and a weight greater than that of the air it displaces."
+    },
+    {
+      "id": 28,
+      "word": "Bicycle",
+      "pronunciation": "/ˈbaɪ.sɪ.kəl/",
+      "description": "A vehicle composed of two wheels held in a frame one behind the other, powered by pedaling."
+    },
+    {
+      "id": 29,
+      "word": "Chocolate",
+      "pronunciation": "/ˈtʃɒk.lət/",
+      "description": "A food made from roasted and ground cacao seeds, used as a flavoring or sweetener."
+    },
+    {
+      "id": 30,
+      "word": "Dolphin",
+      "pronunciation": "/ˈdɒl.fɪn/",
+      "description": "A marine mammal known for its intelligence and playful behavior."
+    },
+    {
+      "id": 31,
+      "word": "Elephant",
+      "pronunciation": "/ˈɛlɪfənt/",
+      "description": "A large mammal with a trunk, native to Africa and Asia."
+    },
+    {
+      "id": 32,
+      "word": "Fox",
+      "pronunciation": "/fɒks/",
+      "description": "A small to medium-sized omnivorous mammal with a bushy tail and pointed snout."
+    },
+    {
+      "id": 33,
+      "word": "Giraffe",
+      "pronunciation": "/dʒɪˈræf/",
+      "description": "A tall African mammal with a very long neck and legs, and a distinctive coat pattern."
+    },
+    {
+      "id": 34,
+      "word": "Hat",
+      "pronunciation": "/hæt/",
+      "description": "A head covering often worn for protection, fashion, or as part of a uniform."
+    },
+    {
+      "id": 35,
+      "word": "Island",
+      "pronunciation": "/ˈaɪ.lənd/",
+      "description": "A piece of land completely surrounded by water."
+    },
+    {
+      "id": 36,
+      "word": "Jellyfish",
+      "pronunciation": "/ˈdʒɛl.i.fɪʃ/",
+      "description": "A marine animal with a gelatinous, transparent body and stinging tentacles."
+    },
+    {
+      "id": 37,
+      "word": "Kangaroo",
+      "pronunciation": "/ˌkæŋ.ɡəˈruː/",
+      "description": "A large marsupial from Australia with powerful hind legs and a long tail."
+    },
+    {
+      "id": 38,
+      "word": "Lemon",
+      "pronunciation": "/ˈlɛm.ən/",
+      "description": "A yellow, acidic fruit used in cooking and drinks."
+    },
+    {
+      "id": 39,
+      "word": "Mountain",
+      "pronunciation": "/ˈmaʊn.tɪn/",
+      "description": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 40,
+      "word": "Noodle",
+      "pronunciation": "/ˈnuː.dəl/",
+      "description": "A type of pasta made from wheat or rice flour and water, often used in Asian cuisine."
+    },
+    {
+      "id": 41,
+      "word": "Octopus",
+      "pronunciation": "/ˈɒk.tə.pəs/",
+      "description": "A sea creature with eight long arms and a soft body."
+    },
+    {
+      "id": 42,
+      "word": "Panda",
+      "pronunciation": "/ˈpæn.də/",
+      "description": "A large bear-like mammal with distinctive black and white fur, native to China."
+    },
+    {
+      "id": 43,
+      "word": "Quilt",
+      "pronunciation": "/kwɪlt/",
+      "description": "A warm bed covering made of padding enclosed between layers of fabric."
+    },
+    {
+      "id": 44,
+      "word": "Rocket",
+      "pronunciation": "/ˈrɒk.ɪt/",
+      "description": "A vehicle or device propelled by expelling gas or other matter."
+    },
+    {
+      "id": 45,
+      "word": "Star",
+      "pronunciation": "/stɑːr/",
+      "description": "A fixed luminous point in the night sky that is a large, remote incandescent body like the sun."
+    },
+    {
+      "id": 46,
+      "word": "Train",
+      "pronunciation": "/treɪn/",
+      "description": "A series of connected railroad cars pulled or pushed by one or more locomotives."
+    },
+    {
+      "id": 47,
+      "word": "Umbrella",
+      "pronunciation": "/ʌmˈbrɛl.ə/",
+      "description": "A device used for protection from rain or sun."
+    },
+    {
+      "id": 48,
+      "word": "Violin",
+      "pronunciation": "/ˌvaɪəˈlɪn/",
+      "description": "A string instrument played with a bow, typically having four strings."
+    },
+    {
+      "id": 49,
+      "word": "Window",
+      "pronunciation": "/ˈwɪn.doʊ/",
+      "description": "An opening in a wall or roof for allowing light or air to enter and usually having glass."
+    },
+    {
+      "id": 50,
+      "word": "Yogurt",
+      "pronunciation": "/ˈjoʊ.ɡɚt/",
+      "description": "A semi-solid sourish food made from milk fermented by added bacteria."
+    }
+  ]
+}
