@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/learningWordsFragment">
 
+    <fragment
+        android:id="@+id/learningWordsFragment"
+        android:name="com.ziyad.wordup.LearningWordsFragment"
+        android:label="fragment_learning_words"
+        tools:layout="@layout/fragment_learning_words" >
+        <action
+            android:id="@+id/action_learningWordsFragment_to_wordMeaningDialogFragment"
+            app:destination="@id/wordMeaningDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/masteredWordsFragment"
+        android:name="com.ziyad.wordup.MasteredWordsFragment"
+        android:label="fragment_mastered_words"
+        tools:layout="@layout/fragment_mastered_words" />
+    <dialog
+        android:id="@+id/wordMeaningDialogFragment"
+        android:name="com.ziyad.wordup.WordMeaningDialogFragment"
+        android:label="fragment_word_meaning_dialog"
+        tools:layout="@layout/fragment_word_meaning_dialog" >
+        <action
+            android:id="@+id/action_wordMeaningDialogFragment_to_learningWordsFragment"
+            app:destination="@id/learningWordsFragment" />
+    </dialog>
 </navigation>
