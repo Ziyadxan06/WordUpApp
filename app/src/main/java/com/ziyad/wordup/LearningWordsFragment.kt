@@ -1,5 +1,9 @@
 package com.ziyad.wordup
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -27,7 +31,15 @@ class LearningWordsFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var wordAdapter: WordAdapter
     private lateinit var wordList: List<WordModel>
+    private lateinit var learningWords : List<WordModel>
     private lateinit var swipeRefreshLayout: SwipeRefreshLayout
+    private lateinit var sharedPreferences: SharedPreferences
+    private val preferenceChangeListener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
+        if (key == "knownWordIds") {
+            // Eğer knownWordIds değişirse loadData() fonksiyonunu tetikleyin
+            loadData()
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,6 +53,9 @@ class LearningWordsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        sharedPreferences = requireContext().getSharedPreferences("MyPrefs", 0)
+        sharedPreferences.registerOnSharedPreferenceChangeListener(preferenceChangeListener)
+
         recyclerView = binding.recyclerViewLearning
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
@@ -52,6 +67,11 @@ class LearningWordsFragment : Fragment() {
         loadData()
     }
 
+    override fun onStart() {
+        super.onStart()
+        Collections.shuffle(learningWords)
+    }
+
     private fun loadData() {
         val inputStream = context?.resources?.openRawResource(R.raw.words)
         val jsonString = InputStreamReader(inputStream).use { it.readText() }
@@ -60,9 +80,9 @@ class LearningWordsFragment : Fragment() {
         val type = object : TypeToken<List<WordModel>>() {}.type
         wordList = Gson().fromJson(jsonArray.toString(), type)
 
-        Collections.shuffle(wordList)
+        learningWords = wordList.filterNot { it.id in getKnownWordIds() }
 
-        wordAdapter = WordAdapter(wordList){ word ->
+        wordAdapter = WordAdapter(learningWords){ word ->
             findNavController()
                 .navigate(LearningWordsFragmentDirections.actionLearningWordsFragmentToWordMeaningDialogFragment(word.id))
         }
@@ -71,7 +91,14 @@ class LearningWordsFragment : Fragment() {
 
     private fun refreshData() {
         loadData()
+        Collections.shuffle(learningWords)
         swipeRefreshLayout.isRefreshing = false
+    }
+
+    private fun getKnownWordIds(): Set<Int> {
+        return sharedPreferences.getStringSet("knownWordIds", emptySet())
+            ?.mapNotNull { it.toIntOrNull() }
+            ?.toSet() ?: emptySet()
     }
 
     override fun onDestroyView() {

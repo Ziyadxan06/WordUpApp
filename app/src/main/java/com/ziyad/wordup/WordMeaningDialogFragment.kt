@@ -1,11 +1,15 @@
 package com.ziyad.wordup
 
+import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.DialogFragment
+import androidx.navigation.fragment.findNavController
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.ziyad.wordup.databinding.FragmentWordMeaningDialogBinding
@@ -20,6 +24,7 @@ class WordMeaningDialogFragment : DialogFragment() {
 
     private lateinit var word: WordModel
     private lateinit var wordList : List<WordModel>
+    private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,6 +34,7 @@ class WordMeaningDialogFragment : DialogFragment() {
         _binding = FragmentWordMeaningDialogBinding.inflate(inflater, container, false)
 
         val wordId = WordMeaningDialogFragmentArgs.fromBundle(requireArguments()).wordId
+        sharedPreferences = requireContext().getSharedPreferences("MyPrefs", 0)
         wordList = loadWordList()
         word = findWord(wordId)
 
@@ -41,6 +47,12 @@ class WordMeaningDialogFragment : DialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.btnKnown.setOnClickListener {
+            saveIdToPreferences(word.id)
+            dismiss()
+            Toast.makeText(requireContext(), "${word.word} removed from Learn", Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun loadWordList(): List<WordModel> {
@@ -50,6 +62,20 @@ class WordMeaningDialogFragment : DialogFragment() {
         val jsonArray = jsonObject.getJSONArray("words")
         val type = object : TypeToken<List<WordModel>>() {}.type
         return Gson().fromJson(jsonArray.toString(), type)
+    }
+
+    private fun saveIdToPreferences(wordId: Int) {
+        val knownWordIds = getKnownWordIds().toMutableSet()
+        knownWordIds.add(wordId)
+        val editor = sharedPreferences.edit()
+        editor.putStringSet("knownWordIds", knownWordIds.map { it.toString() }.toSet())
+        editor.apply()
+    }
+
+    private fun getKnownWordIds(): Set<Int> {
+        return sharedPreferences.getStringSet("knownWordIds", emptySet())
+            ?.mapNotNull { it.toIntOrNull() }
+            ?.toSet() ?: emptySet()
     }
 
     private fun findWord(id: Int): WordModel {
