@@ -18,7 +18,11 @@
         android:id="@+id/masteredWordsFragment"
         android:name="com.ziyad.wordup.MasteredWordsFragment"
         android:label="fragment_mastered_words"
-        tools:layout="@layout/fragment_mastered_words" />
+        tools:layout="@layout/fragment_mastered_words" >
+        <action
+            android:id="@+id/action_masteredWordsFragment_to_knownWordMeaningDialogFragment"
+            app:destination="@id/knownWordMeaningDialogFragment" />
+    </fragment>
     <dialog
         android:id="@+id/wordMeaningDialogFragment"
         android:name="com.ziyad.wordup.WordMeaningDialogFragment"
@@ -31,4 +35,13 @@
             android:name="wordId"
             app:argType="integer"/>
     </dialog>
+    <fragment
+        android:id="@+id/knownWordMeaningDialogFragment"
+        android:name="com.ziyad.wordup.KnownWordMeaningDialogFragment"
+        android:label="fragment_known_word_meaning_dialog"
+        tools:layout="@layout/fragment_known_word_meaning_dialog" >
+        <action
+            android:id="@+id/action_knownWordMeaningDialogFragment_to_masteredWordsFragment"
+            app:destination="@id/masteredWordsFragment" />
+    </fragment>
 </navigation>
