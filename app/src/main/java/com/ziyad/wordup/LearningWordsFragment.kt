@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -61,7 +62,10 @@ class LearningWordsFragment : Fragment() {
 
         Collections.shuffle(wordList)
 
-        wordAdapter = WordAdapter(wordList)
+        wordAdapter = WordAdapter(wordList){ word ->
+            findNavController()
+                .navigate(LearningWordsFragmentDirections.actionLearningWordsFragmentToWordMeaningDialogFragment(word.id))
+        }
         recyclerView.adapter = wordAdapter
     }
 
