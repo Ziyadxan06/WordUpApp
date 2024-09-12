@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ziyad.wordup.R
 
-class MasteredWordAdapter(val wordList: List<WordModel>) : RecyclerView.Adapter<WordViewHolder>() {
+class MasteredWordAdapter(val wordList: List<WordModel>, val onItemClick: (WordModel) -> Unit) : RecyclerView.Adapter<WordViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.recyclerview_layout, parent, false)
@@ -23,5 +23,9 @@ class MasteredWordAdapter(val wordList: List<WordModel>) : RecyclerView.Adapter<
         val word = wordList[position]
         holder.wordTextView.text = word.word
         holder.pronunciationTextView.text = word.pronunciation
+
+        holder.itemView.setOnClickListener {
+            onItemClick(word)
+        }
     }
 }

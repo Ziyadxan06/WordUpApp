@@ -30,6 +30,12 @@ class MasteredWordsFragment : Fragment() {
     private lateinit var masteredWordAdapter: MasteredWordAdapter
     private lateinit var masteredWordList: List<WordModel>
     private lateinit var sharedPreferences: SharedPreferences
+    private val preferenceChangeListener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
+        if (key == "knownWordIds") {
+            // Eğer knownWordIds değişirse loadData() fonksiyonunu tetikleyin
+            loadData()
+        }
+    }
 
 
     override fun onCreateView(
@@ -48,6 +54,7 @@ class MasteredWordsFragment : Fragment() {
         masteredRecyclerView.layoutManager = LinearLayoutManager(requireContext())
 
         sharedPreferences = requireContext().getSharedPreferences("MyPrefs", 0)
+        sharedPreferences.registerOnSharedPreferenceChangeListener(preferenceChangeListener)
 
         loadData()
     }
@@ -63,7 +70,10 @@ class MasteredWordsFragment : Fragment() {
 
         val knownWords = masteredWordList.filter { it.id in knownWordIds }
 
-        masteredWordAdapter = MasteredWordAdapter(knownWords)
+        masteredWordAdapter = MasteredWordAdapter(knownWords){ knownWord ->
+            findNavController()
+                .navigate(MasteredWordsFragmentDirections.actionMasteredWordsFragmentToKnownWordMeaningDialogFragment(knownWord.id))
+        }
         masteredRecyclerView.adapter = masteredWordAdapter
     }
 

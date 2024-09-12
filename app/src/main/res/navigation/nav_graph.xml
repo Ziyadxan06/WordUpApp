@@ -35,7 +35,7 @@
             android:name="wordId"
             app:argType="integer"/>
     </dialog>
-    <fragment
+    <dialog
         android:id="@+id/knownWordMeaningDialogFragment"
         android:name="com.ziyad.wordup.KnownWordMeaningDialogFragment"
         android:label="fragment_known_word_meaning_dialog"
@@ -43,5 +43,8 @@
         <action
             android:id="@+id/action_knownWordMeaningDialogFragment_to_masteredWordsFragment"
             app:destination="@id/masteredWordsFragment" />
-    </fragment>
+        <argument
+            android:name="knownWordId"
+            app:argType="integer"/>
+    </dialog>
 </navigation>
