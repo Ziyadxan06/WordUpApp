@@ -29,6 +29,7 @@ class MasteredWordsFragment : Fragment() {
     private lateinit var masteredRecyclerView: RecyclerView
     private lateinit var masteredWordAdapter: MasteredWordAdapter
     private lateinit var masteredWordList: List<WordModel>
+    private lateinit var jsonString: String
     private lateinit var sharedPreferences: SharedPreferences
     private val preferenceChangeListener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
         if (key == "knownWordIds") {
@@ -62,7 +63,9 @@ class MasteredWordsFragment : Fragment() {
     private fun loadData() {
         val knownWordIds = getKnownWordIds()
         val inputStream = context?.resources?.openRawResource(R.raw.words)
-        val jsonString = InputStreamReader(inputStream).use { it.readText() }
+        if(inputStream != null){
+            jsonString = InputStreamReader(inputStream).use { it.readText() }
+        }
         val jsonObject = JSONObject(jsonString)
         val jsonArray = jsonObject.getJSONArray("words")
         val type = object : TypeToken<List<WordModel>>() {}.type
