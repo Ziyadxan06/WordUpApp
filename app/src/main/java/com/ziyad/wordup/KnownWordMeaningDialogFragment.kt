@@ -40,7 +40,8 @@ class KnownWordMeaningDialogFragment : DialogFragment() {
 
         binding.wordTextView.text = word.word
         binding.pronunciationTextView.text = word.pronunciation
-        binding.descriptionTextView.text = word.description
+        binding.turkishTextView.text = word.turkish
+        binding.azerbaijaniTextView.text = word.azerbaijani
 
         binding.btnLearn.setOnClickListener {
             val wordId = word.id

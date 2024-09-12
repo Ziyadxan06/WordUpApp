@@ -24,13 +24,22 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/descriptionTextView"
+        android:id="@+id/turkishTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="27sp"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:fontFamily="sans-serif-condensed"/>
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/azerbaijaniTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"/>
 
     <Button
         android:id="@+id/btnLearn"

@@ -47,7 +47,8 @@ class WordMeaningDialogFragment : DialogFragment() {
 
         binding.wordTextView.text = word.word
         binding.pronunciationTextView.text = word.pronunciation
-        binding.descriptionTextView.text = word.description
+        binding.turkishTextView.text = word.turkish
+        binding.azerbaijaniTextView.text = word.azerbaijani
 
         binding.btnKnown.setOnClickListener {
             saveIdToPreferences(word.id)
