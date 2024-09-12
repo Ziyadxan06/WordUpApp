@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("androidx.navigation.safeargs")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -53,11 +54,11 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:$nav_version")
     implementation("com.google.code.gson:gson:2.8.8")
     implementation("com.github.bumptech.glide:glide:4.15.0")
+    implementation(platform("com.google.firebase:firebase-bom:33.2.0"))
+    implementation("com.google.firebase:firebase-analytics")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.0")
     testImplementation(libs.junit)
     androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-
 }
