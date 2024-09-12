@@ -52,6 +52,8 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment:$nav_version")
     implementation("androidx.navigation:navigation-ui:$nav_version")
     implementation("com.google.code.gson:gson:2.8.8")
+    implementation("com.github.bumptech.glide:glide:4.15.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.15.0")
     testImplementation(libs.junit)
     androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
     androidTestImplementation(libs.androidx.junit)
