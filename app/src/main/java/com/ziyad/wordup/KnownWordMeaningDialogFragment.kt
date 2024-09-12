@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
+import com.bumptech.glide.Glide
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.ziyad.wordup.databinding.FragmentKnownWordMeaningDialogBinding
@@ -42,6 +43,10 @@ class KnownWordMeaningDialogFragment : DialogFragment() {
         binding.pronunciationTextView.text = word.pronunciation
         binding.turkishTextView.text = word.turkish
         binding.azerbaijaniTextView.text = word.azerbaijani
+
+        Glide.with(this)
+            .load(word.imageUri)
+            .into(binding.wordImage)
 
         binding.btnLearn.setOnClickListener {
             val wordId = word.id
