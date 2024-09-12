@@ -36,7 +36,6 @@ class LearningWordsFragment : Fragment() {
     private lateinit var sharedPreferences: SharedPreferences
     private val preferenceChangeListener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
         if (key == "knownWordIds") {
-            // Eğer knownWordIds değişirse loadData() fonksiyonunu tetikleyin
             loadData()
         }
     }
@@ -67,11 +66,6 @@ class LearningWordsFragment : Fragment() {
         loadData()
     }
 
-    override fun onStart() {
-        super.onStart()
-        Collections.shuffle(learningWords)
-    }
-
     private fun loadData() {
         val inputStream = context?.resources?.openRawResource(R.raw.words)
         val jsonString = InputStreamReader(inputStream).use { it.readText() }
@@ -81,6 +75,7 @@ class LearningWordsFragment : Fragment() {
         wordList = Gson().fromJson(jsonArray.toString(), type)
 
         learningWords = wordList.filterNot { it.id in getKnownWordIds() }
+        Collections.shuffle(learningWords)
 
         wordAdapter = WordAdapter(learningWords){ word ->
             findNavController()
@@ -91,7 +86,6 @@ class LearningWordsFragment : Fragment() {
 
     private fun refreshData() {
         loadData()
-        Collections.shuffle(learningWords)
         swipeRefreshLayout.isRefreshing = false
     }
 
