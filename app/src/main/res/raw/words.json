@@ -5,350 +5,400 @@
       "word": "Apple",
       "pronunciation": "/ˈæp.əl/",
       "turkish": "Elma",
-      "azerbaijani": "Alma"
+      "azerbaijani": "Alma",
+      "imageUri": "https://www.buildrestfoods.com/wp-content/uploads/2020/08/green-apply.jpg"
     },
     {
       "id": 2,
       "word": "Banana",
       "pronunciation": "/bəˈnæn.ə/",
       "turkish": "Muz",
-      "azerbaijani": "Banan"
+      "azerbaijani": "Banan",
+      "imageUri": "https://i5.walmartimages.com/seo/Fresh-Banana-Fruit-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg"
     },
     {
       "id": 3,
       "word": "Cat",
       "pronunciation": "/kæt/",
       "turkish": "Kedi",
-      "azerbaijani": "Pişik"
+      "azerbaijani": "Pişik",
+      "imageUri": "https://cdn.britannica.com/36/234736-050-4AC5B6D5/Scottish-fold-cat.jpg"
     },
     {
       "id": 4,
       "word": "Dog",
       "pronunciation": "/dɔɡ/",
       "turkish": "Köpek",
-      "azerbaijani": "It"
+      "azerbaijani": "It",
+      "imageUri": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*"
     },
     {
       "id": 5,
       "word": "Elephant",
       "pronunciation": "/ˈɛlɪfənt/",
       "turkish": "Fil",
-      "azerbaijani": "Fil"
+      "azerbaijani": "Fil",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp1ZsaZ5x8xX52f0fwIC8WLJT61M_mzBzzpA&s"
     },
     {
       "id": 6,
       "word": "Flower",
       "pronunciation": "/ˈflaʊ.ər/",
       "turkish": "Çiçek",
-      "azerbaijani": "Gül"
+      "azerbaijani": "Gül",
+      "imageUri": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg"
     },
     {
       "id": 7,
       "word": "Guitar",
       "pronunciation": "/ɡɪˈtɑːr/",
       "turkish": "Gitar",
-      "azerbaijani": "Gitara"
+      "azerbaijani": "Gitara",
+      "imageUri": "https://m.media-amazon.com/images/I/714kO41XjDL.jpg"
     },
     {
       "id": 8,
       "word": "House",
       "pronunciation": "/haʊs/",
       "turkish": "Ev",
-      "azerbaijani": "Ev"
+      "azerbaijani": "Ev",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbcrj53mGyk-u4JwrIb6z1RBAeCpxR78gfQ&s"
     },
     {
       "id": 9,
       "word": "Ice Cream",
       "pronunciation": "/aɪs kriːm/",
       "turkish": "Dondurma",
-      "azerbaijani": "Dondurma"
+      "azerbaijani": "Dondurma",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMB-0Wp31tYn42jRSN4M3T6O0NuXsqUEARJw&s"
     },
     {
       "id": 10,
       "word": "Jacket",
       "pronunciation": "/ˈdʒæk.ɪt/",
       "turkish": "Ceket",
-      "azerbaijani": "Jaket"
+      "azerbaijani": "Jaket",
+      "imageUri": "https://m.media-amazon.com/images/I/61FRgVZBhzL._AC_UY1000_.jpg"
     },
     {
       "id": 11,
       "word": "Kite",
       "pronunciation": "/kaɪt/",
       "turkish": "Uçurtma",
-      "azerbaijani": "Çərpələng"
+      "azerbaijani": "Çərpələng",
+      "imageUri": "https://nationaltoday.com/wp-content/uploads/2021/10/International-Kite-Day-1200x834.jpg "
     },
     {
       "id": 12,
       "word": "Lion",
       "pronunciation": "/ˈlaɪ.ən/",
       "turkish": "Aslan",
-      "azerbaijani": "Şir"
+      "azerbaijani": "Şir",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkweJd4p9VczpkEXjW6yS9pZGE3DDzAViGw&s"
     },
     {
       "id": 13,
       "word": "Monkey",
       "pronunciation": "/ˈmʌŋ.ki/",
       "turkish": "Maymun",
-      "azerbaijani": "Meymun"
+      "azerbaijani": "Meymun",
+      "imageUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg/220px-Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg"
     },
     {
       "id": 14,
       "word": "Notebook",
       "pronunciation": "/ˈnoʊt.bʊk/",
       "turkish": "Defter",
-      "azerbaijani": "Dəftər"
+      "azerbaijani": "Dəftər",
+      "imageUri": "https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-2008.jpg?auto=webp&quality=75&width=1024"
     },
     {
       "id": 15,
       "word": "Orange",
       "pronunciation": "/ˈɔːr.ɪndʒ/",
       "turkish": "Portakal",
-      "azerbaijani": "Portağal"
+      "azerbaijani": "Portağal",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa3K1PkfEgVzc6JeayE-uGwejpsBDBbVBUw&s"
     },
     {
       "id": 16,
       "word": "Pencil",
       "pronunciation": "/ˈpen.səl/",
       "turkish": "Kurşun Kalem",
-      "azerbaijani": "Qələm"
+      "azerbaijani": "Qələm",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmeqQdqPkvF_xEd59PKYfVxJpe3GXa2aNoaA&s"
     },
     {
       "id": 17,
       "word": "Queen",
       "pronunciation": "/kwiːn/",
       "turkish": "Kraliçe",
-      "azerbaijani": "Kraliça"
+      "azerbaijani": "Kraliça",
+      "imageUri": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1188052265.jpg?crop=1xw:1.0xh;center,top&resize=640:*"
     },
     {
       "id": 18,
       "word": "Rainbow",
       "pronunciation": "/ˈreɪn.boʊ/",
       "turkish": "Gökkuşağı",
-      "azerbaijani": "Göyqurşağı"
+      "azerbaijani": "Göyqurşağı",
+      "imageUri": "https://c.tadst.com/gfx/600x337/rainbow.jpg?1"
     },
     {
       "id": 19,
       "word": "Sun",
       "pronunciation": "/sʌn/",
       "turkish": "Güneş",
-      "azerbaijani": "Günəş"
+      "azerbaijani": "Günəş",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCjPT0ix8WihDy79RCKVsubYMTbkj2hyHzg&s"
     },
     {
       "id": 20,
       "word": "Tiger",
       "pronunciation": "/ˈtaɪ.ɡər/",
       "turkish": "Kaplan",
-      "azerbaijani": "Pələng"
+      "azerbaijani": "Pələng",
+      "imageUri": "https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg"
     },
     {
       "id": 21,
       "word": "Umbrella",
       "pronunciation": "/ʌmˈbrɛl.ə/",
       "turkish": "Şemsiye",
-      "azerbaijani": "Çətir"
+      "azerbaijani": "Çətir",
+      "imageUri": "https://m.media-amazon.com/images/I/51QAfxLBDzL._AC_UY1100_.jpg"
     },
     {
       "id": 22,
       "word": "Violin",
       "pronunciation": "/ˌvaɪəˈlɪn/",
       "turkish": "Keman",
-      "azerbaijani": "Kaman"
+      "azerbaijani": "Kaman",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kYPpIARm2ee0KnfK0hYd504-h4HvVPFLTA&s"
     },
     {
       "id": 23,
       "word": "Watermelon",
       "pronunciation": "/ˈwɔː.tərˌmel.ən/",
       "turkish": "Karpuz",
-      "azerbaijani": "Qarpız"
+      "azerbaijani": "Qarpız",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaZMefppM4pi-ygzOHTbInC84pjJF2bEJWXw&s"
     },
     {
       "id": 24,
       "word": "Candle",
       "pronunciation": "/ˈzaɪ.ləˌfoʊn/",
       "turkish": "Mum",
-      "azerbaijani": "Şam"
+      "azerbaijani": "Şam",
+      "imageUri": "https://cdn2.hubspot.net/hub/121786/file-16667522-jpg/images/candles.jpg"
     },
     {
       "id": 25,
       "word": "Yacht",
       "pronunciation": "/jɒt/",
       "turkish": "Yat",
-      "azerbaijani": "Yaxta"
+      "azerbaijani": "Yaxta",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2wOK3mVZ1soI0KkvY6-zblkevwee6QZwz3Q&s"
     },
     {
       "id": 26,
       "word": "Zebra",
       "pronunciation": "/ˈziː.brə/",
       "turkish": "Zebra",
-      "azerbaijani": "Zebr"
+      "azerbaijani": "Zebr",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjYX0UyzQ8lXw_ZvdLJCQMGNfNjYIzgZ4LQ&s"
     },
     {
       "id": 27,
       "word": "Airplane",
       "pronunciation": "/ˈɛər.pleɪn/",
       "turkish": "Uçak",
-      "azerbaijani": "Təyyarə"
+      "azerbaijani": "Təyyarə",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJxO5OxwUNAFrUrP0oGL6ap_eBfI0OuWlTg&s"
     },
     {
       "id": 28,
       "word": "Bicycle",
       "pronunciation": "/ˈbaɪ.sɪ.kəl/",
       "turkish": "Bisiklet",
-      "azerbaijani": "Velosiped"
+      "azerbaijani": "Velosiped",
+      "imageUri": "https://stryderbikes.com/cdn/shop/files/ZeetaMaxElectricBlue.jpg?v=1688558406"
     },
     {
       "id": 29,
       "word": "Chocolate",
       "pronunciation": "/ˈtʃɒk.lət/",
       "turkish": "Çikolata",
-      "azerbaijani": "Şokolad"
+      "azerbaijani": "Şokolad",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB0mi8fhLcqse4MTMGGXWgg6RqhiNsM1MvFw&s"
     },
     {
       "id": 30,
       "word": "Dolphin",
       "pronunciation": "/ˈdɒl.fɪn/",
       "turkish": "Yunus",
-      "azerbaijani": "Delfin"
+      "azerbaijani": "Delfin",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbbCBAo35Y1CYpRRgMOwUXnEw75i6HkxnwQQ&s"
     },
     {
       "id": 31,
       "word": "Tea",
       "pronunciation": "/ˈɛlɪfənt/",
       "turkish": "Çay",
-      "azerbaijani": "Çay"
+      "azerbaijani": "Çay",
+      "imageUri": "https://aegeanlocations.com/wp-content/uploads/2024/01/Turkish-Cay-scaled.webp"
     },
     {
       "id": 32,
       "word": "Fox",
       "pronunciation": "/fɒks/",
       "turkish": "Tilki",
-      "azerbaijani": "Tülkü"
+      "azerbaijani": "Tülkü",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaBpbEWNdxFbp_2xBhEQwpreiquqt7E19Pow&s"
     },
     {
       "id": 33,
       "word": "Giraffe",
       "pronunciation": "/dʒɪˈræf/",
       "turkish": "Zürafa",
-      "azerbaijani": "Zürafə"
+      "azerbaijani": "Zürafə",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8LhGnq28k0ZOmnNopAKhKmb2HeIuKI9YVLw&s"
     },
     {
       "id": 34,
       "word": "Hat",
       "pronunciation": "/hæt/",
       "turkish": "Şapka",
-      "azerbaijani": "Papaq"
+      "azerbaijani": "Papaq",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUCVxcX4cqDkL5qaXZi-DU_T9-8EGK_YFUw&s"
     },
     {
       "id": 35,
       "word": "Island",
       "pronunciation": "/ˈaɪ.lənd/",
       "turkish": "Ada",
-      "azerbaijani": "Ada"
+      "azerbaijani": "Ada",
+      "imageUri": "https://upload.wikimedia.org/wikipedia/commons/0/07/2006-06-22_12-37-59_Seychelles_-_Machabee_%28Sainte_Anne_Island%29.jpg"
     },
     {
       "id": 36,
       "word": "Jellyfish",
       "pronunciation": "/ˈdʒɛl.i.fɪʃ/",
       "turkish": "Ahtapot",
-      "azerbaijani": "Meduza"
+      "azerbaijani": "Meduza",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9MJAQ7x-OgxlIPVCQeSc9P1TfC1G4jrgPUw&s"
     },
     {
       "id": 37,
       "word": "Kangaroo",
       "pronunciation": "/ˌkæŋ.ɡəˈruː/",
       "turkish": "Kanguru",
-      "azerbaijani": "Kenquru"
+      "azerbaijani": "Kenquru",
+      "imageUri": "https://cdn.mos.cms.futurecdn.net/ETb2xLjvc62eb7PPLspSsU-1200-80.jpg"
     },
     {
       "id": 38,
       "word": "Lemon",
       "pronunciation": "/ˈlɛm.ən/",
       "turkish": "Limon",
-      "azerbaijani": "Limon"
+      "azerbaijani": "Limon",
+      "imageUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/640px-Lemon.jpg"
     },
     {
       "id": 39,
       "word": "Mountain",
       "pronunciation": "/ˈmaʊn.tɪn/",
       "turkish": "Dağ",
-      "azerbaijani": "Dağ"
+      "azerbaijani": "Dağ",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMuRviGmuOIjiaBd9elsOJ9lthIA9hKV6JGQ&s"
     },
     {
       "id": 40,
       "word": "Nurse",
       "pronunciation": "/nɜːrs/",
       "turkish": "Hemşire",
-      "azerbaijani": "Tibb bacısı"
+      "azerbaijani": "Tibb bacısı",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXaFqVBluWyXl-oT63IEQH0Mepw2W6eliV8w&s"
     },
     {
       "id": 41,
       "word": "Octopus",
       "pronunciation": "/ˈɒk.tə.pəs/",
       "turkish": "Ahtapot",
-      "azerbaijani": "Osminoq"
+      "azerbaijani": "Osminoq",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGywZ8BREZC9YRylwCkne5uAByDrUIdqAaQ&s"
     },
     {
       "id": 42,
       "word": "Penguin",
       "pronunciation": "/ˈpɛŋ.ɡwɪn/",
       "turkish": "Penguen",
-      "azerbaijani": "Pinqvin"
+      "azerbaijani": "Pinqvin",
+      "imageUri": "https://storage.evrimagaci.org/old/content_media/8e6e4eed265995bec1e7559cca27f725.jpg"
     },
     {
       "id": 43,
       "word": "Quilt",
       "pronunciation": "/kwɪlt/",
       "turkish": "Yatak Örtüsü",
-      "azerbaijani": "Yataq örtüsü"
+      "azerbaijani": "Yataq örtüsü",
+      "imageUri": "https://hips.hearstapps.com/hmg-prod/images/gees-bend-artistic-quilt-katie-mae-etsy-1632155593.jpg"
     },
     {
       "id": 44,
       "word": "Rose",
       "pronunciation": "/roʊz/",
       "turkish": "Gül",
-      "azerbaijani": "Qızıl Gül"
+      "azerbaijani": "Qızıl Gül",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2ScrzsC8W2jF86UjEN619o7shhKcPg_dSA&s"
     },
     {
       "id": 45,
       "word": "Spider",
       "pronunciation": "/ˈspaɪ.dər/",
       "turkish": "Örümcek",
-      "azerbaijani": "Hörümçək"
+      "azerbaijani": "Hörümçək",
+      "imageUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Araneae3.jpg/640px-Araneae3.jpg"
     },
     {
       "id": 46,
       "word": "Train",
       "pronunciation": "/treɪn/",
       "turkish": "Tren",
-      "azerbaijani": "Qatar"
+      "azerbaijani": "Qatar",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgaz9vFqcwV8XrisJxym7vZWp1hIagN1SDA&s"
     },
     {
       "id": 47,
       "word": "Unicorn",
       "pronunciation": "/ˈjuː.nɪ.kɔːrn/",
       "turkish": "Tek Boynuzlu At",
-      "azerbaijani": "Tək buynuzlu at"
+      "azerbaijani": "Tək buynuzlu at",
+      "imageUri": "https://img.freepik.com/free-vector/adorable-pink-unicorn-with-stars_1308-146486.jpg"
     },
     {
       "id": 48,
       "word": "Volcano",
       "pronunciation": "/vɒlˈkeɪ.noʊ/",
       "turkish": "Volkan",
-      "azerbaijani": "Vulkan"
+      "azerbaijani": "Vulkan",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPoYNedGcpLFzMNo50Wz-qahuFnCDHreC0Iw&s"
     },
     {
       "id": 49,
       "word": "Whale",
       "pronunciation": "/weɪl/",
       "turkish": "Balina",
-      "azerbaijani": "Balina"
+      "azerbaijani": "Balina",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBPs3NrBv6GJeEbXiIvVaH0MEg6jteq2S18g&s"
     },
     {
       "id": 50,
       "word": "Xylophone",
       "pronunciation": "/ˈzaɪ.ləˌfoʊn/",
       "turkish": "Ksilofon",
-      "azerbaijani": "Ksilofon"
+      "azerbaijani": "Ksilofon",
+      "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQZ-BHklOZnsFo0PEAo-mq1GUsgYGAzUghA&s"
     }
   ]
 }
