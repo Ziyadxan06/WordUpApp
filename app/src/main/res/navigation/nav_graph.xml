@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/formFragment">
+    app:startDestination="@id/welcomeFragment">
 
     <fragment
         android:id="@+id/learningWordsFragment"
@@ -63,6 +63,15 @@
         tools:layout="@layout/fragment_add_word" >
         <action
             android:id="@+id/action_addWordFragment_to_formFragment"
+            app:destination="@id/formFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.ziyad.wordup.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_formFragment"
             app:destination="@id/formFragment" />
     </fragment>
 </navigation>
