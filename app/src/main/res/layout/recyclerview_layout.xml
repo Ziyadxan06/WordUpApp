@@ -8,12 +8,15 @@
 
     <TextView
         android:id="@+id/wordTextView"
+        android:textColor="#0260B4"
+        android:fontFamily="sans-serif-black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="23sp"/>
 
     <TextView
         android:id="@+id/pronunciationTextView"
+        android:fontFamily="sans-serif-black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
