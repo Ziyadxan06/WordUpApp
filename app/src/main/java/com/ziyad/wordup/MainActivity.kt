@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.learningWordsFragment,
+                R.id.addWordFragment,
                 R.id.masteredWordsFragment
             )
         )

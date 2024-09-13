@@ -4,6 +4,10 @@
         android:icon="@drawable/ic_learn"
         android:title="Learn"/>
 
+    <item android:id="@+id/addWordFragment"
+        android:icon="@drawable/ic_add"
+        android:title="Add"/>
+
     <item android:id="@+id/masteredWordsFragment"
         android:icon="@drawable/ic_learned"
         android:title="Known"/>
