@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091B79"
+    android:orientation="vertical"
+    tools:context=".WelcomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome To WordUp"
+        android:textColor="#C808E2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WordUp is a mobile application designed to enhance your English vocabulary learning in an engaging and effective manner. It features a comprehensive word list with over 50 English words, each accompanied by detailed meanings and images. Users can track their progress through two categories: 'Learning' and 'Mastered,' allowing them to monitor their vocabulary acquisition."
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#C808E2"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:alpha="0.75"/>
+
+    <Button
+        android:id="@+id/btnNavigateToSignIn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="Got It" />
+
+
+</LinearLayout>
