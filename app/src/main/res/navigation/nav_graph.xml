@@ -56,4 +56,13 @@
             android:id="@+id/action_formFragment_to_learningWordsFragment"
             app:destination="@id/learningWordsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addWordFragment"
+        android:name="com.ziyad.wordup.AddWordFragment"
+        android:label="fragment_add_word"
+        tools:layout="@layout/fragment_add_word" >
+        <action
+            android:id="@+id/action_addWordFragment_to_formFragment"
+            app:destination="@id/formFragment" />
+    </fragment>
 </navigation>
