@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="600dp"
     android:orientation="vertical"
-    android:background="#03A9F4"
+    android:background="#782286"
     android:padding="30dp"
     tools:context=".KnownWordMeaningDialogFragment">
 
